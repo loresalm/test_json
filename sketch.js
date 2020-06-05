@@ -4,7 +4,7 @@ let earthquakes;
 function preload() {
   // Get the most recent earthquake in the database
   
-  earthquakes = loadJSON(data.json);
+  earthquakes = loadJSON('data.json');
 }
 
 function setup() {
