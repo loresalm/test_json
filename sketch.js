@@ -16,23 +16,41 @@ function setup() {
   text(wrong.question, 10, 30);
   button_a = createButton(wrong.choices[0]);
   button_a.position(20, 110);
-  button_a.mousePressed(check(1));
+  button_a.mousePressed(res_a);
 
   button_b = createButton(wrong.choices[1]);
   button_b.position(20, 210);
-  button_b.mousePressed(check(2));
+  button_b.mousePressed(res_b);
 
   button_c = createButton(wrong.choices[2]);
   button_c.position(20, 310);
-  button_c.mousePressed(check(3));
+  button_c.mousePressed(res_c);
 
 }
 
 
-function check(ans){
-  if(ans == 1){
+function res_a(){
+  if(wrong.true == 1){
     console.log("Correct")
   }else{
     console.log("wrong")
   }
 }
+
+function res_b(){
+  if(wrong.true == 2){
+    console.log("Correct")
+  }else{
+    console.log("wrong")
+  }
+}
+
+
+function res_c(){
+  if(wrong.true == 3){
+    console.log("Correct")
+  }else{
+    console.log("wrong")
+  }
+}
+
