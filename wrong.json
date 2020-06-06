@@ -1,5 +1,20 @@
-{
-  "question": "Gli elementi, che suddividono lo scafo in senso trasversale, sono:",
-  "choices": ["le paratie.","gli osteriggi.","i boccaporti."],
-  "true": 2
+{"wrong":{
+			"Q1":{
+  					"question": "Gli elementi, che suddividono lo scafo in senso trasversale, sono:",
+  					"choices": ["le paratie.","gli osteriggi.","i boccaporti."],
+  					"true": 2
+  				},
+  			"Q2":{
+  					"question": "L'elemento fondamentale per il rinforzo longitudinale dello scafo è:",
+  					"choices": ["la chiglia.","il baglio.","l'ordinata."],
+  					"true": 1
+				}	
+		},
+
+"correct":{	
+			"Q3":{		"question": "L'elemento fondamentale per il rinforzo longitudinale dello scafo è:",
+  					"choices": ["serrette.","controchiglia.","paramezzale"],
+  					"true": 1
+  				}
+		  }
 }
