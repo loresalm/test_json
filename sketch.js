@@ -13,8 +13,8 @@ function setup() {
   fill(0);
   textAlign(CENTER);
   text(wrong.question, 10, 80);
-  button_a = createButton(wrong.answere[0]);
-  button_b = createButton(wrong.answere[0]);
-  button_c = createButton(wrong.answere[0]);
+  button_a = createButton(wrong.question);
+  button_b = createButton(wrong.question);
+  button_c = createButton(wrong.question);
 
 }
