@@ -4,23 +4,23 @@ let data;
 function preload() {
   // Get the most recent earthquake in the database
   
-  correct = loadJSON('correct.json');
+  //correct = loadJSON('correct.json');
   wrong = loadJSON('wrong.json');
 }
 
 function setup() {
   createCanvas(800, 800);
-  background(100)
+  background(200)
   fill(0);
-  textAlign(CENTER);
-  text(wrong.question, 100, 80);
-  button_a = createButton(wrong.question);
-  button_a.position(100, 100);
+  
+  text(wrong.question, 10, 30);
+  button_a = createButton(wrong.choices[0]);
+  button_a.position(20, 110);
 
-  button_b = createButton(wrong.question);
-  button_b.position(100, 200);
+  button_b = createButton(wrong.choices[1]);
+  button_b.position(20, 210);
 
-  button_c = createButton(wrong.question);
-  button_c.position(100, 300);
+  button_c = createButton(wrong.choices[2]);
+  button_c.position(20, 310);
 
 }
