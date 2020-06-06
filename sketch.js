@@ -18,7 +18,7 @@ function setup() {
   button_a.position(100, 100);
 
   button_b = createButton(wrong.question);
-  button_b.position(100, 200;
+  button_b.position(100, 200);
 
   button_c = createButton(wrong.question);
   button_c.position(100, 300);
