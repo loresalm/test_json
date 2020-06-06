@@ -30,7 +30,7 @@ function setup() {
 
 
 function check(ans){
-  if(ans == wrong.true){
+  if(ans == 1){
     console.log("Correct")
   }else{
     console.log("wrong")
