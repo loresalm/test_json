@@ -31,8 +31,8 @@ function setup() {
 
 function check(ans){
   if(ans == wrong.true){
-    background(0,255,0)
+    console.log("Correct")
   }else{
-    background(255,0,0)
+    console.log("wrong")
   }
 }
