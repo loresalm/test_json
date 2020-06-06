@@ -15,6 +15,6 @@ function setup() {
   text(wrong.question, 10, 80);
   button_a = createButton(wrong.answere[0]);
   button_b = createButton(wrong.answere[0]);
-  button-c = createButton(wrong.answere[0]);
+  button_c = createButton(wrong.answere[0]);
 
 }
