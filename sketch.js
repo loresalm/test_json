@@ -16,15 +16,15 @@ function setup() {
   text(wrong.question, 10, 30);
   button_a = createButton(wrong.choices[0]);
   button_a.position(20, 110);
-  button.mousePressed(check(1));
+  button_a.mousePressed(check(1));
 
   button_b = createButton(wrong.choices[1]);
   button_b.position(20, 210);
-  button.mousePressed(check(2));
+  button_b.mousePressed(check(2));
 
   button_c = createButton(wrong.choices[2]);
   button_c.position(20, 310);
-  button.mousePressed(check(3));
+  button_c.mousePressed(check(3));
 
 }
 
